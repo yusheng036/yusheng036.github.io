@@ -6,7 +6,7 @@
     - name: Interests
       value: High-Performance Computing, Parallel Graph Algorithms, Scalable Sparse Solvers, Applied Numerical Linear Algebra
     - name: Skills
-      value: C/C++, Python, CUDA, OpenMP, MPI
+      value: C/C++, Python
 
 - title: Education
   type: time_table
@@ -17,7 +17,7 @@
       description:
         - "Major: Computer Science"
         - "Cumulative GPA: 3.34/4.00"
-        - "Major GPA: 4.00/4.00"
+        - "Major GPA: 3.60/4.00"
 
 - title: Experience
   type: time_table
