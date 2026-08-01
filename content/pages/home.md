@@ -14,8 +14,8 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-talks: true # includes latest talks
+selected_papers: false # includes a list of papers marked as "selected={true}"
+talks: false # includes latest talks
 ---
 
 My research interests lie in the general area of high-performance computing, particularly in parallel programming and algorithms, with the focus on graph algorithms and applied numerical linear algebra.
