@@ -1,0 +1,84 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Yen-Hsiang Chang
+    - name: Interests
+      value: High-Performance Computing, Parallel Graph Algorithms, Scalable Sparse Solvers, Applied Numerical Linear Algebra
+    - name: Skills
+      value: C/C++, Python, CUDA, OpenMP, MPI
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D., EECS
+      institution: University of California, Berkeley
+      year: 2023 - now
+      description:
+        - "Advisor: Prof. James Demmel"
+        - "Advanced to Candidacy: May 2026"
+    - title: B.S., Grainger Engineering
+      institution: University of Illinois Urbana-Champaign
+      year: 2018 - 2022
+      description:
+        - "Major: Computer Engineering, Minor: Mathematics"
+        - "Cumulative GPA: 3.99/4.00"
+        - "Major GPA: 4.00/4.00, Minor GPA: 4.00/4.00"
+        - "Graduated with Highest Honors, on completion of an undergraduate thesis of superior quality."
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Graduate Researcher
+      institution: Sparsitute, PASSION Lab and BeBOP at UC Berkeley and LBNL
+      year: 2023 - now
+      description:
+        - "Mentors: Prof. James Demmel, Dr. Aydın Buluc"
+        - "Focus: Scalable direct sparse solvers and fill-reduced ordering algorithms"
+
+    - title: Undergraduate Researcher
+      institution: Coordinated Science Laboratory (CSL) at UIUC
+      year: 2021 - 2022
+      description:
+        - "Mentors: Prof. Wen-mei Hwu, Prof. Rakesh Nagi, Prof. Jinjun Xiong"
+        - "Focus: Parallel graph mining on GPUs"
+
+    - title: Undergraduate Researcher
+      institution: IBM-Illinois Center for Cognitive Computing Systems Research (C3SR)
+      year: 2019 - 2022
+      description:
+        - "Mentors: Prof. Wen-mei Hwu, Prof. Jinjun Xiong"
+        - "Focus: Benchmarking methods for evaluating ML inference systems"
+
+- title: Publications and Talks
+  contents: See links in the navigation bar.
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: 2025
+      elements:
+        - Best Presentation Award in SIAM ACDA25
+        - Tong Leong Lim Pre-Doctoral Prize (Highest distinction in the pre-doctoral examination in EECS at UC Berkeley)
+    - year: 2022
+      elements:
+        - 17th Place in 2022 Google Hash Code World Finals
+    - year: 2021
+      elements:
+        - Bronze Medal in 2020 ICPC World Finals (11th place worldwide)
+        - ECE Alumni Association Scholarship (Outstanding scholastic record in ECE at UIUC)
+        - 163rd Place in 2021 Google Code Jam Round 3
+    - year: 2020
+      elements:
+        - 6th Place in Microsoft Q# Summer Coding Contest
+        - Round 4 Qualifier in 2020 Topcoder Open Algorithm Competition (Top 110 contestants worldwide)
+        - Midwest Champion in 2020 ICPC North America Championship (10th place nationwide)
+        - 2nd Place in 2020 ICPC North America Championship Cyber Challeng
+        - 132nd Place in 2020 Google Code Jam Round 3
+    - year: 2019
+      elements:
+        - 1st Place in 2019 ICPC North America Mid-Central Regional Contest
+        - 112th Place in 2019 Google Code Jam Round 3
+    - year: 2018 - 2022
+      elements:
+        - Dean’s List in Grainger College of Engineering at UIUC
