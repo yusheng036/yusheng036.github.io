@@ -23,7 +23,7 @@
             </a>
           </div>
           <div class="col-sm-9">
-            <h3><a class="post-title" href="{{ project.url | relative_url }}">{{ mdata.title }}</a></h3>
+            <h3><a class="post-title font-weight-bold" href="{{ project.url | relative_url }}">{{ mdata.title }}</a></h3>
             <p>{{ mdata.summary }}</p>
             <p class="post-tags">
               {% if mdata.category %}<i class="fas fa-tag fa-sm"></i> {{ mdata.category }}{% endif %}
