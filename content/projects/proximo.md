@@ -1,5 +1,5 @@
 ---
-title: Proximo: Identity-Based AI Tutors
+title: "Proximo: Identity-Based AI Tutors"
 template: page
 summary: Exploring whether future-self framing in AI tutors can improve learner motivation and engagement.
 category: research
