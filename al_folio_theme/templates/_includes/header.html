@@ -23,9 +23,7 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if SITE.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           <div class="desktop">
-          {% if not is_homepage -%}
           {{ navbar_title }}
-          {% endif %}
           </div>
           <div class="mobile">
           {{ navbar_title }}
