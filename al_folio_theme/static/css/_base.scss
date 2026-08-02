@@ -23,6 +23,23 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+.terminal-prompt {
+  margin-right: 0.35ch;
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 0.6ch;
+  height: 1em;
+  margin-left: 0.1ch;
+  vertical-align: -0.1em;
+  background-color: currentColor;
+
+  &.hidden {
+    display: none;
+  }
+}
+
 table {
   td,
   th {
