@@ -4,6 +4,9 @@ template: page
 summary: Exploring whether future-self framing in AI tutors can improve learner motivation and engagement.
 category: research
 importance: 2
+members:
+  - name: Yu Sheng Aow
+    url: https://github.com/yusheng036
 github: https://github.com/yusheng036/proximo
 slides: slides/proximo-slides.pptx
 video: videos/proximo-demo.mp4

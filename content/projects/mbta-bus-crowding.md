@@ -4,6 +4,17 @@ template: page
 summary: Predicting MBTA bus crowding from historical ridership data across routes, stops, and time periods.
 category: research
 importance: 1
+members:
+  - name: Yu Sheng Aow
+    url: https://github.com/yusheng036
+  - name: Dave Feng
+    url: https://github.com/Davidioxide
+  - name: Yucheng Xue
+    url: https://github.com/RoyeeXue
+  - name: Cindy Lin
+    url: https://github.com/lllllllchh
+  - name: Gor Matcakian
+    url: https://github.com/matcakian
 github: https://github.com/yusheng036/MBTA-Bus-Crowding-Analysis
 video: https://www.youtube.com/watch?v=3xVfyBtVULY
 icon: fas fa-bus

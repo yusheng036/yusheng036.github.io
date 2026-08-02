@@ -24,7 +24,12 @@
             <h3 class="post-title font-weight-bold">{{ mdata.title }}</h3>
             <p>{{ mdata.summary }}</p>
             <p class="post-tags">
-              {% if mdata.category %}<i class="fas fa-tag fa-sm"></i> {{ mdata.category }}{% endif %}
+              {% if mdata.members %}
+                <strong>Members:</strong>
+                {% for member in mdata.members %}
+                  <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">{{ member.name }}</a>{{ ", " if not loop.last else "" }}
+                {% endfor %}
+              {% endif %}
             </p>
             <div class="project-actions project-list-actions">
               {% if mdata.github %}

@@ -1,14 +1,14 @@
 {% macro map( entry ) -%}
 
-<table class="table table-cv table-sm table-borderless table-responsive">
+<dl class="cv-map card-text">
     {% for content in entry.contents %}
-      <tr>
-        <td class="p-1 pr-2 font-weight-bold"><b>{{ content.name }}</b></td>
+      <div class="cv-map-row">
+        <dt>{{ content.name }}</dt>
         {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        <dd>{{ content.value }}</dd>
         {% endif %}
         {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
+        <dd>
           <div class="container-pdf">
           {% for item in content.links %}
               {% if item.link %}
@@ -22,10 +22,10 @@
               {% endif %}
           {% endfor %}
           </div>
-        </td>
+        </dd>
         {% endif %}
-      </tr>
+      </div>
     {% endfor %}
-</table>
+</dl>
 
 {% endmacro %}
