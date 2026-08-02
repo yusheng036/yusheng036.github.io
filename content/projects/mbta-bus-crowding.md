@@ -5,6 +5,7 @@ summary: Predicting MBTA bus crowding from historical ridership data across rout
 category: research
 importance: 1
 github: https://github.com/yusheng036/MBTA-Bus-Crowding-Analysis
+video: https://www.youtube.com/watch?v=3xVfyBtVULY
 icon: fas fa-bus
 img: images/projects/mbta-bus-crowding.png
 ---

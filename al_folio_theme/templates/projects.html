@@ -14,22 +14,33 @@
       <li>
         <div class="row align-items-center">
           <div class="col-sm-3 order-sm-2 project-list-visual" align="center">
-            <a href="{{ project.url | relative_url }}" aria-label="View {{ mdata.title }}">
-              {% if mdata.img %}
-                <img class="project-list-image" src="{{ mdata.img | relative_url }}" alt="{{ mdata.title }} project preview">
-              {% else %}
-                <i class="{{ mdata.icon if mdata.icon else 'fas fa-code' }} fa-4x" aria-hidden="true"></i>
-              {% endif %}
-            </a>
+            {% if mdata.img %}
+              <img class="project-list-image" src="{{ mdata.img | relative_url }}" alt="{{ mdata.title }} project preview">
+            {% else %}
+              <i class="{{ mdata.icon if mdata.icon else 'fas fa-code' }} fa-4x" aria-hidden="true"></i>
+            {% endif %}
           </div>
           <div class="col-sm-9">
-            <h3><a class="post-title font-weight-bold" href="{{ project.url | relative_url }}">{{ mdata.title }}</a></h3>
+            <h3 class="post-title font-weight-bold">{{ mdata.title }}</h3>
             <p>{{ mdata.summary }}</p>
             <p class="post-tags">
               {% if mdata.category %}<i class="fas fa-tag fa-sm"></i> {{ mdata.category }}{% endif %}
-              {% if mdata.category and mdata.github %}&nbsp; &middot; &nbsp;{% endif %}
-              {% if mdata.github %}<a href="{{ mdata.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-sm"></i> repository</a>{% endif %}
             </p>
+            <div class="project-actions project-list-actions">
+              {% if mdata.github %}
+                <a href="{{ mdata.github }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+              {% endif %}
+              {% if mdata.slides %}
+                <a href="{{ mdata.slides | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+              {% endif %}
+              {% if mdata.video %}
+                {% if '://' in mdata.video %}
+                  <a href="{{ mdata.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Video</a>
+                {% else %}
+                  <a href="{{ mdata.video | relative_url }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+                {% endif %}
+              {% endif %}
+            </div>
           </div>
         </div>
       </li>

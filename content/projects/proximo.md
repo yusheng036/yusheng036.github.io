@@ -5,6 +5,8 @@ summary: Exploring whether future-self framing in AI tutors can improve learner 
 category: research
 importance: 2
 github: https://github.com/yusheng036/proximo
+slides: slides/proximo-slides.pptx
+video: videos/proximo-demo.mp4
 icon: fas fa-user-graduate
 img: images/projects/proximo.png
 ---

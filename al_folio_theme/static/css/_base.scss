@@ -4,6 +4,16 @@
 
 // Typography
 
+body {
+  font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar.navbar-light .navbar-brand.title,
+code,
+pre {
+  font-family: "Google Sans Code", monospace;
+}
+
 p,
 h1,
 h2,
@@ -541,6 +551,11 @@ html[data-theme='dark'] .cv .card {
       border-color: var(--global-theme-color);
     }
   }
+}
+
+.project-list-actions {
+  margin-bottom: 0;
+  margin-top: 0.75rem;
 }
 
 .pagination {
