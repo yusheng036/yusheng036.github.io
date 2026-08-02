@@ -6,7 +6,7 @@
     - name: Interests
       value: High-Performance Computing, Sparse Tensors, Array Programming, Query Optimization, Programming Language
     - name: Skills
-      value: C/C++, Python, Assembly, Java, Julia
+      value: Python, C/C++, Assembly, Java, Julia
 
 - title: Education
   type: time_table
@@ -24,21 +24,21 @@
   contents:
     - title: Undergraduate Researcher
       institution: Boston University
-      year: 2025 - NOW
+      year: "June 2025-Now"
       description:
         - "Mentors: Prof. Willow Ahrens, Prof. Kyle Deeds"
-        - "Focus: Research on Finch and Galley for Sparse Tensor Programming and Query Optimization collaborating with Georgia Tech College of Computing and MIT CSAIL"
+        - "Focus: Research on Finch and Galley for Sparse Tensor Programming and Query Optimization in collaboration with Georgia Tech College of Computing and MIT CSAIL"
 
     - title: Open Source Engineer Internship
       institution: Quansight PBC
-      year: 2026
+      year: "Summer 2026"
       description:
         - "Mentors: Mateusz Sokol"
         - "Focus: Research on integration of MLIR into a sparse tensor algebra compiler"
 
     - title: Undergraduate Researcher
       institution: Boston University
-      year: 2026
+      year: "Jan 2026-Jun 2026"
       description:
         - "Mentors: Prof. Boqing Gong"
         - "Focus: Camera Motion Understanding for Vision-Language Models (VLMs)"
@@ -49,6 +49,6 @@
 - title: Awards
   type: time_table
   contents:
-    - year: 2025 - 2026
+    - year: "Fall 25, Spring 26"
       elements:
         - Dean’s List in College of Arts and Sciences

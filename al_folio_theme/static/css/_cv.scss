@@ -37,6 +37,23 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+ul.cv-time-table {
+  font-size: 0.82rem;
+
+  h6.title {
+    font-size: 0.9rem;
+  }
+
+  span.badge {
+    font-size: 0.72rem;
+  }
+
+  td.institution,
+  ul.items {
+    font-size: 0.82rem;
+  }
+}
+
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;
