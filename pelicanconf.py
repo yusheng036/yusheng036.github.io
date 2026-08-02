@@ -83,7 +83,7 @@ PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 PAGE_URL = '{path_no_ext}/'
 PAGE_SAVE_AS = '{path_no_ext}/index.html'
 
-STATIC_PATHS = ['images', 'pdf', 'json']
+STATIC_PATHS = ['images', 'pdf', 'json', 'videos', 'slides']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -155,4 +155,3 @@ SITEMAP = {
 }
 
 READERS = {'md': TOCMarkdownReader}
-
