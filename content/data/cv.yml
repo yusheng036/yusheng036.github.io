@@ -38,7 +38,7 @@
 
     - title: Undergraduate Researcher
       institution: Boston University
-      year: "Jan 2026-Jun 2026"
+      year: "Jan 2026-<br>Jun 2026"
       description:
         - "Mentors: Prof. Boqing Gong"
         - "Focus: Camera Motion Understanding for Vision-Language Models (VLMs)"
@@ -49,6 +49,6 @@
 - title: Awards
   type: time_table
   contents:
-    - year: "Fall 25, Spring 26"
+    - year: "Fall 25,<br>Spring 26"
       elements:
         - Dean’s List in College of Arts and Sciences
