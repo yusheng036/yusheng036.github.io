@@ -401,6 +401,14 @@ footer.sticky-bottom {
   }
 }
 
+html[data-theme='dark'] .cv .card {
+  background-color: #1b1b1b;
+
+  .list-group-item .badge {
+    color: #1b1b1b !important;
+  }
+}
+
 .table-cv-map {
   background-color: transparent;
   border: none;
@@ -481,6 +489,26 @@ footer.sticky-bottom {
 
     mjx-container[jax="CHTML"][display="true"] {
       display: unset;
+    }
+  }
+}
+
+.projects-header h2 {
+  font-size: 1.25rem;
+}
+
+.project-list {
+  .project-list-visual a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  @media (max-width: 575px) {
+    .project-list-visual {
+      margin-bottom: 1.25rem;
     }
   }
 }
@@ -1013,6 +1041,21 @@ progress::-moz-progress-bar {
 /* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
+
+  .nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .nav>li>a {
+    display: block;
+    padding: 0.25rem 1rem;
+    border-left: 2px solid transparent;
+  }
+
+  .nav .nav {
+    margin-left: 0.75rem;
+  }
 
   .nav .nav>li>a {
     font-size: .75rem;

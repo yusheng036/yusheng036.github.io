@@ -5,6 +5,7 @@ summary: Predicting MBTA bus crowding from historical ridership data across rout
 category: research
 importance: 1
 github: https://github.com/yusheng036/MBTA-Bus-Crowding-Analysis
+icon: fas fa-bus
 ---
 
 An analysis of historical MBTA ridership data that compares eight machine-learning models for predicting bus crowding across routes, stops, and time periods. Random Forest achieved the strongest results and was used to identify the busiest routes and travel periods.
