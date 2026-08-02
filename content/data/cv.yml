@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: B.A., Computer Science
-      institution: Boston University
+      institution: Boston University, College of Arts and Science
       year: 2024 - 2027
       description:
         - "Major: Computer Science"
@@ -27,10 +27,10 @@
       year: 2025 - NOW
       description:
         - "Mentors: Prof. Willow Ahrens, Prof. Kyle Deeds"
-        - "Focus: Research on Finch and Galley for Sparse Tensor Programming and Query Optimization "
+        - "Focus: Research on Finch and Galley for Sparse Tensor Programming and Query Optimization collaborating with Georgia Tech College of Computing and MIT CSAIL"
 
     - title: Open Source Engineer Internship
-      institution: Quansight
+      institution: Quansight PBC
       year: 2026
       description:
         - "Mentors: Mateusz Sokol"
