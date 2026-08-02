@@ -23,7 +23,9 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if SITE.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           <div class="desktop">
+          {% if not is_homepage -%}
           {{ navbar_title }}
+          {% endif %}
           </div>
           <div class="mobile">
           {{ navbar_title }}
@@ -104,8 +106,7 @@
         </div>
       </nav>
       <script>
-        const animateNavbarTitle = () => {
-          const title = document.querySelector('.navbar-brand.title');
+        const animateTerminalTitle = (title) => {
           if (!title || title.dataset.typed === 'true') {
             return;
           }
@@ -147,7 +148,11 @@
           typeNext();
         };
 
-        window.addEventListener('load', animateNavbarTitle);
+        window.addEventListener('load', () => {
+          document
+            .querySelectorAll('.navbar-brand.title, .animated-profile-title')
+            .forEach(animateTerminalTitle);
+        });
       </script>
 {% if SITE.enable_progressbar %}
       <!-- Scrolling Progress Bar -->
