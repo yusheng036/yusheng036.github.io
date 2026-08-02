@@ -117,14 +117,21 @@
             return;
           }
 
+          const isProfileTitle = title.classList.contains('animated-profile-title');
           title.dataset.typed = 'true';
 
           if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            title.textContent = fullText;
+            title.textContent = isProfileTitle ? `> ${fullText}` : fullText;
             return;
           }
 
           title.textContent = '';
+          if (isProfileTitle) {
+            const prompt = document.createElement('span');
+            prompt.className = 'terminal-prompt';
+            prompt.textContent = '>';
+            title.append(prompt);
+          }
           const typedText = document.createElement('span');
           typedText.className = 'terminal-text';
           const cursor = document.createElement('span');

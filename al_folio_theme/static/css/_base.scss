@@ -524,6 +524,25 @@ html[data-theme='dark'] .cv .card {
   }
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0;
+
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    margin: 0;
+    padding: 0.25rem 1rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
 .pagination {
   .page-item {
     .page-link {

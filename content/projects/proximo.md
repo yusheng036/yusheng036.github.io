@@ -13,7 +13,11 @@ Proximo is an HCI research prototype that investigates whether an AI tutor frame
 
 **Members:** [Yu Sheng Aow](https://github.com/yusheng036)
 
-[View the GitHub repository](https://github.com/yusheng036/proximo) · [Download the presentation slides]({static}/slides/proximo-slides.pptx)
+<div class="project-actions">
+  <a href="https://github.com/yusheng036/proximo" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+  <a href="{static}/slides/proximo-slides.pptx" class="btn btn-sm z-depth-0" role="button">Slides</a>
+  <a href="{static}/videos/proximo-demo.mp4" class="btn btn-sm z-depth-0" role="button">Video</a>
+</div>
 
 <video controls preload="metadata" playsinline style="display: block; width: 100%; height: auto; margin-top: 1rem;" aria-label="Proximo demo video">
   <source src="/videos/proximo-demo.mp4" type="video/mp4">
