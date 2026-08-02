@@ -4,9 +4,9 @@
     - name: Name
       value: Yu Sheng Aow
     - name: Interests
-      value: High-Performance Computing, Parallel Graph Algorithms, Scalable Sparse Solvers, Applied Numerical Linear Algebra
+      value: High-Performance Computing, Sparse Tensors, Array Programming, Query Optimization, Programming Language
     - name: Skills
-      value: C/C++, Python, Assembly
+      value: C/C++, Python, Assembly, Java, Julia
 
 - title: Education
   type: time_table
@@ -27,7 +27,7 @@
       year: May 2026 - now
       description:
         - "Mentors: Mateusz Sokol"
-        - "Focus: Scalable direct sparse solvers and fill-reduced ordering algorithms"
+        - "Focus: Research on integration of MLIR into a sparse tensor algebra compiler"
 
     - title: Undergraduate Researcher
       institution: Boston University
@@ -42,14 +42,6 @@
       description:
         - "Mentors: Prof. Boqing Gong"
         - "Focus: Camera Motion Understanding for Vision-Language Models (VLMs)"
-
-
-    - title: Software Engineer Internship
-      institution: Glotad Solutions Sdn Bhd
-      year: 2019 - 2022
-      description:
-        - "Mentors: "
-        - "Focus: Operational Efficiency — Data accuracy and process optimization"
 
 # - title: Publications and Talks
 #   contents: See links in the navigation bar.
