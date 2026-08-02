@@ -24,21 +24,21 @@
   contents:
     - title: Open Source Engineer Internship
       institution: Quansight
-      year: May 2026 - now
+      year: 2026
       description:
         - "Mentors: Mateusz Sokol"
         - "Focus: Research on integration of MLIR into a sparse tensor algebra compiler"
 
     - title: Undergraduate Researcher
       institution: Boston University
-      year: July 2025 - now
+      year: 2025 - Present
       description:
         - "Mentors: Prof. Willow Ahrens, Prof. Kyle Deeds"
         - "Focus: Research on Finch and Galley for Sparse Tensor Programming and Query Optimization "
 
     - title: Undergraduate Researcher
       institution: Boston University
-      year: Jan 2026 - May 2026
+      year: 2026
       description:
         - "Mentors: Prof. Boqing Gong"
         - "Focus: Camera Motion Understanding for Vision-Language Models (VLMs)"
@@ -49,6 +49,6 @@
 - title: Awards
   type: time_table
   contents:
-    - year: Fall 2025, Spring 2026
+    - year: 2025 - 2026
       elements:
         - Dean’s List in College of Arts and Sciences
