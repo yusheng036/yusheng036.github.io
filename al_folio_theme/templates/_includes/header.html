@@ -2,7 +2,6 @@
 
 {% set navbar_title %}
 <a class="navbar-brand title font-weight-lighter" href="{{ SITEURL }}/">
-  {%- if not is_homepage -%}<span class="terminal-prompt">&gt;</span>{%- endif -%}
   {%- if SITE.title is none -%}
     {%- if SITE.first_name -%}
       <span class="font-weight-bold">{{- SITE.first_name -}}&nbsp;</span>
@@ -121,20 +120,17 @@
           title.dataset.typed = 'true';
 
           if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            title.textContent = `> ${fullText}`;
+            title.textContent = fullText;
             return;
           }
 
           title.textContent = '';
-          const prompt = document.createElement('span');
-          prompt.className = 'terminal-prompt';
-          prompt.textContent = '>';
           const typedText = document.createElement('span');
           typedText.className = 'terminal-text';
           const cursor = document.createElement('span');
           cursor.className = 'terminal-cursor';
           cursor.setAttribute('aria-hidden', 'true');
-          title.append(prompt, typedText, cursor);
+          title.append(typedText, cursor);
 
           let index = 0;
           const typeNext = () => {
