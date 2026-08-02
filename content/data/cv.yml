@@ -11,8 +11,8 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.A., Computer Science
-      institution: Boston University, College of Arts and Science
+    - title: B.A., College of Arts and Science
+      institution: Boston University
       year: 2024 - 2027
       description:
         - "Major: Computer Science"
