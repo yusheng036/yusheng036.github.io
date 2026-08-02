@@ -19,6 +19,13 @@
         - "Cumulative GPA: 3.34/4.00"
         - "Major GPA: 3.60/4.00"
 
+    -  title: B.S., College of Arts and Science
+       institution: University of Illinois, Chicago
+       year: 2023 - 2024
+       description:
+        - "Major: Computer Science"
+        - "Cumulative GPA: 3.63/4.00"
+
 - title: Experience
   type: time_table
   contents:
