@@ -6,6 +6,7 @@ category: research
 importance: 2
 github: https://github.com/yusheng036/proximo
 icon: fas fa-user-graduate
+img: /images/projects/proximo.png
 ---
 
 Proximo is an HCI research prototype that investigates whether an AI tutor framed as a learner's successful future self can improve motivation and engagement. In an eight-participant pilot study, the future-self tutor produced higher engagement, trust, and enjoyment than a standard AI tutor, with participants sending 20% more messages on average.

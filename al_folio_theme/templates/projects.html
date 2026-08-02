@@ -15,7 +15,11 @@
         <div class="row align-items-center">
           <div class="col-sm-3 order-sm-2 project-list-visual" align="center">
             <a href="{{ project.url | relative_url }}" aria-label="View {{ mdata.title }}">
-              <i class="{{ mdata.icon if mdata.icon else 'fas fa-code' }} fa-4x" aria-hidden="true"></i>
+              {% if mdata.img %}
+                <img class="project-list-image" src="{{ mdata.img | relative_url }}" alt="{{ mdata.title }} project preview">
+              {% else %}
+                <i class="{{ mdata.icon if mdata.icon else 'fas fa-code' }} fa-4x" aria-hidden="true"></i>
+              {% endif %}
             </a>
           </div>
           <div class="col-sm-9">

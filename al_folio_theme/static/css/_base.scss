@@ -500,10 +500,21 @@ html[data-theme='dark'] .cv .card {
 .project-list {
   .project-list-visual a {
     color: var(--global-text-color);
+    display: block;
 
     &:hover {
       color: var(--global-theme-color);
     }
+  }
+
+  .project-list-image {
+    aspect-ratio: 16 / 10;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: block;
+    object-fit: cover;
+    width: 100%;
   }
 
   @media (max-width: 575px) {
