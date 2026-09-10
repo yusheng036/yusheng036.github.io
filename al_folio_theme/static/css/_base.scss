@@ -1210,9 +1210,7 @@ nav[data-toggle="toc"] {
   }
 
   h2.talks {
-    color: var(--global-divider-color);
-    margin-bottom: -2rem;
-    text-align: right;
+    display: none;
   }
 
   ol.talks {
@@ -1225,11 +1223,13 @@ nav[data-toggle="toc"] {
 
       .date {
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: 440;
+        color: var(--global-heading-color);
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 440;
+        color: var(--global-heading-color);
       }
 
       .author {
