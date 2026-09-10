@@ -15,7 +15,7 @@ profile:
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-talks: false # includes latest talks
+talks: true # includes latest talks
 ---
 
 My research interests lie broadly in high-performance computing and array programming, with a focus on query optimization and compiler backends for high-performance code generation.
