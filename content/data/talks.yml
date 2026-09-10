@@ -1,0 +1,7 @@
+- venue: <a href="https://quansight.com/">Quansight Internal Talk</a>, Virtual
+  title:
+    "Finch Meets MLIR (Quansight Internship Journey)"
+  date: 2026-09-01
+  buttons:
+    slides: pdf/Quansight.pdf
+    video: https://youtu.be/VLrnP5X_OZw
