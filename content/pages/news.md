@@ -11,7 +11,7 @@ entries:
 
   - date: 2026-09-01
     content: |
-      I gave a talk at an internal Quansight seminar about my internship experience—check it out [here](https://youtu.be/VLrnP5X_OZw)!
+      I gave a talk at an internal Quansight seminar about my internship experience — check it out [here](https://youtu.be/VLrnP5X_OZw)!
 
   - date: 2026-06-08
     content: |
