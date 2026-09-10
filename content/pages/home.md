@@ -18,8 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 talks: false # includes latest talks
 ---
 
-My research interests lie in the general area of high-performance computing, particularly in parallel programming and algorithms, with the focus on graph algorithms and applied numerical linear algebra.
+My research interests lie broadly in high-performance computing and array programming, with a focus on query optimization and compiler backends for high-performance code generation.
 
-I received my B.S. in Computer Engineering from UIUC in 2022, with Highest Honors and with a minor in Mathematics. I have had the privilege to work with <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Prof. Wen-mei Hwu</a>, <a href="https://ise.illinois.edu/directory/profile/nagi">Prof. Rakesh Nagi</a>, and <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Prof. Jinjun Xiong</a> at Illinois.
+I am currently in my Bachelor pursuing a B.A in Computer Science from Boston University. I have had the privilege to work with <a href="https://www.bu.edu/cs/profiles/kyle-deeds/">Prof. Kyle Deeds</a>, <a href="https://www.bu.edu/cs/profiles/nathan-mull/">Prof. Nathan Mull</a>, and <a href="https://www.bu.edu/cs/profiles/boqing-gong/">Prof. Boqing Gong</a> at BU. I have also worked with <a href="https://scs.gatech.edu/people/willow-ahrens">Prof. Willow Ahrens from Georgia Tech.
 
 If you'd like to learn more about me, please see my <a href="cv">CV</a> or contact me via <a href="mailto:ays03@bu.edu">email</a>.

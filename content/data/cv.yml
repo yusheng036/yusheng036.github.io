@@ -6,7 +6,7 @@
     - name: Interests
       value: High-Performance Computing, Sparse Tensors, Array Programming, Query Optimization, Programming Language
     - name: Skills
-      value: Python, C/C++, Assembly, Java, Julia
+      value: Python, C/C++, Assembly, Java, Julia, OCaml, MLIR
 
 - title: Education
   type: time_table
