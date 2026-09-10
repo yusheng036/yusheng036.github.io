@@ -15,5 +15,5 @@ entries:
 
   - date: 2026-06-08
     content: |
-      Summer plans: I will be at [Quansight](https://quansight.com/) working as a Open Source Engineer Intern.
+      Summer plans: I will be working at [Quansight](https://quansight.com/) as a Open Source Engineer Intern.
 ---
