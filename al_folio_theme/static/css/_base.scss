@@ -4,8 +4,16 @@
 
 // Typography
 
+:root {
+  --site-font: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --site-code-font: "Google Sans Code", monospace;
+  --font-weight-base: 440;
+}
+
 body {
-  font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--site-font);
+  font-size: 1rem;
+  font-weight: var(--font-weight-base);
 }
 
 code,
@@ -15,7 +23,7 @@ pre {
 
 .navbar.navbar-light .navbar-brand.title,
 .animated-profile-title {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: var(--site-code-font);
 }
 
 p,

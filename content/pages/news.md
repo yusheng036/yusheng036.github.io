@@ -7,7 +7,7 @@ summary: An archive of announcements.
 entries:
   - date: 2026-09-10
     content: |
-      I wrote a blog post about implementing an MLIR backend for [Finch-Tensor](https://github.com/finch-tensor/finch-tensor), a sparse tensor algebra compiler. Check out my blog!
+      I wrote a blog post about implementing an MLIR backend for [Finch-Tensor](https://github.com/finch-tensor/finch-tensor), a sparse tensor algebra compiler. Check out my [blog](https://labs.quansight.org/blog/finch_meets_mlir)!
 
   - date: 2026-09-01
     content: |
