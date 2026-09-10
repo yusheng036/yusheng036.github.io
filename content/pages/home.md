@@ -9,8 +9,7 @@ profile:
   align: right
   image: images/prof_pic.jpg
   image_circular: false # displays the image as a square
-  address: >
-    <p>Email: ays03@bu.edu</p>
+  address:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -20,6 +19,8 @@ talks: true # includes latest talks
 
 My research interests lie broadly in high-performance computing and array programming, with a focus on query optimization and compiler backends for high-performance code generation.
 
-I am currently pursuing a B.A. in Computer Science at Boston University.. I have had the privilege to work with <a href="https://www.bu.edu/cs/profiles/kyle-deeds/">Prof. Kyle Deeds</a>, <a href="https://www.bu.edu/cs/profiles/nathan-mull/">Prof. Nathan Mull</a>, and <a href="https://www.bu.edu/cs/profiles/boqing-gong/">Prof. Boqing Gong</a> at BU. I have also worked with <a href="https://scs.gatech.edu/people/willow-ahrens">Prof. Willow Ahrens</a> from Georgia Tech.
+I am currently pursuing a B.A. in Computer Science at Boston University. I have had the privilege to work with <a href="https://www.bu.edu/cs/profiles/kyle-deeds/">Prof. Kyle Deeds</a>, <a href="https://www.bu.edu/cs/profiles/nathan-mull/">Prof. Nathan Mull</a>, and <a href="https://www.bu.edu/cs/profiles/boqing-gong/">Prof. Boqing Gong</a> at BU. I have also worked with <a href="https://scs.gatech.edu/people/willow-ahrens">Prof. Willow Ahrens</a> from Georgia Tech.
 
-If you'd like to learn more about me, please see my <a href="cv">CV</a> or contact me via <a href="mailto:ays03@bu.edu">email</a>.
+If you'd like to learn more about me, please see my <a href="cv">CV</a>.
+
+<i class="fa-solid fa-envelope"></i> [ays03@bu.edu](mailto:ays03@bu.edu)
