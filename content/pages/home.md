@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 talks: true # includes latest talks
 ---
 
-My research interests lie broadly in **high-performance computing** and **array programming**, with a focus on **query optimization** and **compiler backends for high-performance code generation**.
+<span class="home-research">My research interests lie broadly in <strong>high-performance computing</strong> and <strong>array programming</strong>, with a focus on <strong>query optimization</strong> and <strong>compiler backends for high-performance code generation</strong>.</span>
 
 I am currently pursuing a B.A. in Computer Science at Boston University. I have had the privilege to work with <a href="https://www.bu.edu/cs/profiles/kyle-deeds/">Prof. Kyle Deeds</a>, <a href="https://www.bu.edu/cs/profiles/nathan-mull/">Prof. Nathan Mull</a>, and <a href="https://www.bu.edu/cs/profiles/boqing-gong/">Prof. Boqing Gong</a> at BU. I have also worked with <a href="https://scs.gatech.edu/people/willow-ahrens">Prof. Willow Ahrens</a> from Georgia Tech.
 
